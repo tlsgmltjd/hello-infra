@@ -3,7 +3,7 @@ os: linux
 
 files:
   - source:  /
-    destination: /home/ubuntu/hello-infra
+    destination: /home/ubuntu
     overwrite: yes
 
 permissions:
