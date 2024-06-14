@@ -16,7 +16,7 @@ else
 fi
 
 echo "> Remove previous Docker image"
-docker rmi "$APP_NAME"
+docker rmi "$APP_NAME" || true
 
 echo "> Build Docker image"
 docker build -t "$APP_NAME" "$REPOSITORY"
