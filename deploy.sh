@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-APP_NAME=<본인의 APP 이름>
+APP_NAME=hello-infra
 REPOSITORY=/home/ubuntu/
 
 echo "> Check the currently running container"
