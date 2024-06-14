@@ -4,6 +4,6 @@ EXPOSE 8080
 
 WORKDIR /hello-infra
 
-COPY /home/ubuntu/hello-infra/build/libs/hello-infra-0.0.1-SNAPSHOT.jar app.jar
+COPY build/libs/hello-infra-0.0.1-SNAPSHOT.jar app.jar
 
-ENTRYPOINT ["java","-jar","/app.jar"]
+ENTRYPOINT ["java","-jar","app.jar"]
